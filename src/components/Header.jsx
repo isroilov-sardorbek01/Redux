@@ -20,6 +20,14 @@ function Header() {
                     >
                         1-ms
                     </NavLink>
+                    <NavLink
+                        to="/ms2"
+                        className={({ isActive }) =>
+                            isActive ? "active" : "nonactive"
+                        }
+                    >
+                        2-ms
+                    </NavLink>
                 </ul>
                 <button className="bg-white p-3 rounded-md text-[20px] font-bold active:scale-90 transition-all cursor-pointer">
                     Submit
